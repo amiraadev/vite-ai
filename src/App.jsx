@@ -11,7 +11,9 @@ function App() {
   const isAuth = Boolean(user) && Boolean(secret);
   return (
     <div className="app">
-      <BrowserRouter>
+      <Login/>
+      <Chat/>
+      {/* <BrowserRouter>
         <Routes>
           <Route
             path="/"
@@ -34,7 +36,7 @@ function App() {
             }
           />
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
     </div>
   )
 }
