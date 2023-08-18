@@ -3,6 +3,11 @@
 //   MultiChatSocket,
 //   MultiChatWindow,
 // } from "react-chat-engine-advanced";
+import {
+  ChatCard,
+  ChatCardProps,
+  ChatObject,
+} from "react-chat-engine-advanced";
 function Chat() {
 
   // const chatProps = useMultiChatLogic(
