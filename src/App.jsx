@@ -2,8 +2,8 @@
 
 import { useState } from 'react'
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import Chat from "@/components/chat";
-import Login from "@/components/login";
+import Chat from "./components/chat";
+import Login from "./components/login";
 import './App.css'
 function App() {
   const [user, setUser] = useState(null);
