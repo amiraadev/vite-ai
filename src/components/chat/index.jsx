@@ -1,5 +1,5 @@
 
-function index() {
+function Chat() {
   return (
     <div>
       CHAAT
@@ -7,4 +7,4 @@ function index() {
   )
 }
 
-export default index
+export default Chat

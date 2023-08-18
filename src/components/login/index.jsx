@@ -1,5 +1,5 @@
 
-function index() {
+function Login() {
   return (
     <div>
       LOGIN
@@ -7,4 +7,4 @@ function index() {
   )
 }
 
-export default index
+export default Login
