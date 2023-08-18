@@ -11,7 +11,7 @@ function App() {
   const isAuth = Boolean(user) && Boolean(secret);
   return (
     <div className="app">
-      <Login/>
+      {/* <Login/> */}
       <Chat/>
       {/* <BrowserRouter>
         <Routes>

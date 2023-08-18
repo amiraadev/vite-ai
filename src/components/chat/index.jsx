@@ -1,9 +1,26 @@
-
+import {
+  useMultiChatLogic,
+  MultiChatSocket,
+  MultiChatWindow,
+} from "react-chat-engine-advanced";
 function Chat() {
+
+  const chatProps = useMultiChatLogic(
+    import.meta.env.VITE_PROJECT_ID,
+    "farah",
+    "farah"
+  );
+
+  
   return (
-    <div>
-      CHAAT
-    </div>
+    <div style={{ flexBasis: "100%" }}>
+    <MultiChatSocket {...chatProps} />
+    <MultiChatWindow
+      {...chatProps}
+      style={{ height: "100vh" }}
+      
+    />
+  </div>
   )
 }
 
