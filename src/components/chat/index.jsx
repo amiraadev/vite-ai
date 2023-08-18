@@ -5,11 +5,11 @@ import {
 } from "react-chat-engine-advanced";
 function Chat() {
 
-  const chatProps = useMultiChatLogic(
-    import.meta.env.VITE_PROJECT_ID,
-    "farah",
-    "farah"
-  );
+  // const chatProps = useMultiChatLogic(
+  //   import.meta.env.VITE_PROJECT_ID,
+  //   "farah",
+  //   "farah"
+  // );
 
   
   return (
